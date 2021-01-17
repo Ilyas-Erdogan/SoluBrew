@@ -1,0 +1,167 @@
+body {
+    text-align: center;
+}
+table, th, td {
+    border-collapse: collapse;
+    text-align:center;
+}
+
+.size-section {
+    background: white;
+    width: 400px;
+    height: 40px;
+    margin:auto;
+    padding:0px;
+    border: 0px;
+    text-align:center;
+    border-spacing:0;
+    border-collapse:collapse;
+}
+
+#size-btn {
+    background-color: #e4e1d1;
+    padding: 10px 20px;
+    border: none;
+    color: black;
+    border-radius: 5px;
+    text-align:left; 
+}
+
+#size-btn:hover {
+    background-color: #b6b3a5;
+}
+
+.foam-section {
+    background: #e4e1d1;
+    width: 400px;
+    height:70px;
+    margin:auto;
+    text-align:center;
+}
+
+#foam-btn {
+    background-color: #e4e1d1;
+    padding: 10px 15px;
+    border: none;
+    color: black;
+    border-radius: 5px;
+    text-align:left;
+}
+
+#foam-btn:hover {
+    background-color: #bbb8a8;
+}
+
+.espresso-shots-section {
+    background: rgb(76,29,13);
+    width: 400px;
+    height: 50px;
+    text-align:center;
+    margin:auto;
+    color: white;
+}
+
+#espresso-btn {
+    background-color: rgb(76,29,13);
+    padding: 10px 10px;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    text-align:left;
+}
+
+#espresso-btn:hover {
+    background-color: rgb(105, 39, 17);
+}
+
+.milk-temp-section {
+    background: rgb(203, 172, 124);
+    width: 400px;
+    height: 38px;
+    text-align:center;
+    margin:auto;
+}
+
+#milk-btn {
+    background-color: rgb(203, 172, 124);
+    padding: 10px 15px;
+    border: none;
+    color: black;
+    border-radius: 5px;
+    text-align:left;
+}
+
+#milk-btn:hover {
+    background-color: rgb(180, 151, 108);
+}
+
+.milk-type-section {
+    background: #cbad7d;
+    width: 400px;
+    height: 38px;
+    text-align:center;
+    margin:auto;
+}
+
+#temp-btn {
+    background-color: #cbad7d;
+    padding: 8px 10px;
+    border: none;
+    color: black;
+    border-radius: 5px;
+    text-align:left;    
+}
+
+#temp-btn:hover {
+    background-color: rgb(180, 151, 108);
+}
+
+.syrup-section {
+    background: rgb(194,197,140);
+    width: 400px;
+    height: 40px;
+    padding: 0px;    
+    text-align:center;
+    margin:auto;
+}
+
+#syrup-btn {
+    background-color: rgb(194,197,140);
+    padding: 10px 10px;
+    border: none;
+    color: black;
+    border-radius: 5px;
+    text-align:left;padding: 100, 20;
+    width: auto;
+    margin-right: 0px;
+    margin-left: auto;
+}
+
+#syrup-btn:hover {
+    background-color: rgb(154, 156, 110);
+}
+
+#randomize-main {
+}
+
+#move-right {
+    width: auto;
+    margin-right: 0px;
+    margin-left: auto;
+}
+
+html {
+    background: #177552;
+}
+
+.navbtn {
+    background-color:#FFFDD0 ;
+    border: none;
+    color: #2c1615;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 15px;
+}

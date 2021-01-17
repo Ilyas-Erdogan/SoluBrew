@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href = "macchiato.css">
+        <h2>MACCHIATO</h2> 
+    </head>
+    <body>
+        <script src="macchiato.js"></script>
+
+        <div id = "navbar">
+            <a class = "navbtn" href="index.html">HOME</a>
+            <a class = "navbtn" href="about.html">ABOUT</a>
+        </div>
+
+        <br>
+
+        <table style="margin-left: auto; margin-right:auto;">
+            <tr>
+                <th id="move-right"><button id = "size-btn" onclick="generateSize();">Size!</button></th>
+                <th><p id = "size" class = "size-section">&nbsp;&nbsp;&nbsp;&nbsp;</p></th>
+            </tr>
+            <tr>
+                <th id="move-right"><button id = "foam-btn" onclick="generateFoamAmount();">Foam!</button></th>
+                <th><p id = "foam" class ='foam-section'>&nbsp;&nbsp;&nbsp;&nbsp;</p></th>
+            </tr>
+                <th id="move-right"><button id = "espresso-btn" onclick="generateNumEspressoShots();">Espresso Shots!</button></th>
+                <th><p id = "espresso-shots" class = "espresso-shots-section">&nbsp;&nbsp;&nbsp;&nbsp;</p></th>
+            <tr>
+                <th id="move-right"><button id = "milk-btn" onclick="generateMilkType();">Milk!</button></th>
+                <th><p id = "milk-type" class="milk-type-section">&nbsp;&nbsp;&nbsp;&nbsp;</p></th>
+            </tr>
+            <tr>
+                <th id="move-right"><button id = "temp-btn" onclick="generateMilkTemp();">Milk Temp!</button></th>
+                <th><p id = "milk-temp" class="milk-temp-section">&nbsp;&nbsp;&nbsp;&nbsp;</p></th>
+            </tr>
+            <tr>
+                <th id="move-right"><button id = "syrup-btn" onclick="generateSyrup();">Syrup!</button></th>
+                <th><p id = "syrup" class = "syrup-section">&nbsp;&nbsp;&nbsp;&nbsp;</p></th>
+            </tr>
+        </table>
+
+        <br>
+
+        <div id = "randomize-main">
+            <button onclick="generateEverything();">Randomize Everything!</button>
+        </div>
+    </body>
+</html>
